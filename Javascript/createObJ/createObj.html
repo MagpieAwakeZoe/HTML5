@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Obj = new Object();
+    Obj.name='this is a new obj'
+    console.log(Obj.name);
+//    创建一个对象Obj赋予它name属性
+    var Obj2 ={
+        name:'zoe',
+        age:'12'
+    }
+    console.log(Obj2.name,Obj2.age);
+//使用对象字面量
+    var Obj3 = {
+        name:'flask',
+        age:'15',
+        methods(){
+            alert(Obj3.name);
+        }
+    }
+    Obj3.methods();
+//对象字面量添加方法
+
+</script>
+</body>
+</html>

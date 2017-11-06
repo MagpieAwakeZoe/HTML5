@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--media属性-->
+    <style media="screen AND (max-width:500px)" type="text/css">
+        a{
+            background-color: red;
+            color: white;
+        }
+    </style>
+    <style media="screen AND (min-width:500px)" type="text/css">
+        a{
+            background-color: grey;
+            color: yellow;
+        }
+    </style>
+    <!--两段style的使用条件，大于500px的时候是下面的样式采用，小于500px的时候是上面的样式采用-->
+</head>
+<body>
+<p>I like apple and oranges.</p>
+<a href="http://www.baidu.com">超链接</a>
+</body>
+</html>

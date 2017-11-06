@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .p1{
+            font-size: 12px;
+            height: 2em;
+            /*这里的height:2em指的是p元素在屏幕上显示的高度（红色区域）是字号的2倍*/
+            /*EM特点*/
+            /*1. em的值并不是固定的；*/
+            /*2. em会继承父级元素的字体大小。*/
+            background-color: red;
+        }
+        .p2{
+            font-size: 2em;
+            /*这里的2em相当于父级元素的2倍的字体也就是12px的两倍24px*/
+        }
+
+    </style>
+</head>
+<body>
+<div class="p1">
+    字号高度
+<div class="p2">
+    字体大小
+</div>
+</div>
+
+</body>
+</html>

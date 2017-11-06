@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var Obj ={
+        name:'Zoe',
+        age:'16',
+        sex:'male'
+    }
+    Obj.name='Flask';   //对象名+'.'加属性名改变属性
+    Obj['age']='18';    //对象名方括号，属性名引号改变属性，这里方括号里的可以其他变量替换
+    var ifMan = 'sex';
+    Obj['ifMan']='female';
+    console.log(Obj.name);
+    console.log(Obj.age);
+    console.log(Obj.ifMan);
+</script>
+</body>
+</html>
